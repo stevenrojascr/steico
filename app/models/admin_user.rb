@@ -10,6 +10,8 @@ class AdminUser < ActiveRecord::Base
   # attr_accessible :title, :body
 
   after_create { |admin| admin.send_reset_password_instructions }
+  
+  has_many :tasks
 
   def password_required?
     new_record? ? false : super
