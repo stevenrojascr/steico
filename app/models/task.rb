@@ -5,4 +5,5 @@ class Task < ActiveRecord::Base
  
   validates :title, :project_id, :admin_user_id, :presence => true
   validates :is_done, :inclusion => { :in => [true, false] }
+  
 end
