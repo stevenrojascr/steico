@@ -8,7 +8,10 @@ gem 'rails', '3.2.5'
 gem 'pg'
 
 # Para Active Admin
-gem 'activeadmin'
+#gem 'activeadmin'
+
+# Ultima version
+gem 'activeadmin', :git => 'git://github.com/gregbell/active_admin.git'
 gem 'meta_search', '>= 1.1.0.pre'
 
 # Gems used only for assets and not required
