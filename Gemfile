@@ -7,6 +7,8 @@ gem 'rails', '3.2.5'
 
 gem 'pg'
 
+gem 'thin'
+
 # Para Active Admin
 #gem 'activeadmin'
 
