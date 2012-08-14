@@ -1,4 +1,5 @@
 ActiveAdmin.register Product do
+  menu :parent => I18n.t('active_admin.menu.catalogs')
   index do
     column :id
     column :code

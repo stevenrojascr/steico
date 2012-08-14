@@ -277,6 +277,10 @@ es:
       links:
         sign_in: "registrarse"
         forgot_your_password: "¿Olvidaste tu contraseña?"
+    menu:
+      catalogs: "Catálogos"
+      stores: "Tiendas2"
+      products: "Productos2"            
   views:
       pagination:
           truncate: "..."
