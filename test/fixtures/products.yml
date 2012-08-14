@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  code: MyString
+  name: MyString
+  type: 
+  id_for_customer: 1
+  id_for_us: 1
+  order_in_list: 1
+  active: false
+
+two:
+  code: MyString
+  name: MyString
+  type: 
+  id_for_customer: 1
+  id_for_us: 1
+  order_in_list: 1
+  active: false

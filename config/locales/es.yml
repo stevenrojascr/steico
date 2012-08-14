@@ -293,5 +293,30 @@ es:
     cancel: "Cancelar"
     reset: "Resetear %{model}"
     required: "requerido"
+    
+  activerecord:
+    models:
+      store:
+        one: "Tienda"
+        other: "Tiendas"
+      product:
+        one: "Producto"
+        other: "Productos"
+    attributes:
+      store:
+        code: "Código"
+        name: "Nombre"
+        id_for_customer: "Id Walmart"
+        id_for_us: "Id OfficeHelp"
+        order_in_list: "Orden en lista"
+        active: "Activo"
+      product:
+        code: "Código"
+        name: "Nombre"
+        category: "Categoría"
+        id_for_customer: "Id Walmart"
+        id_for_us: "Id OfficeHelp"
+        order_in_list: "Orden en lista"
+        active: "Activo"
 
 
