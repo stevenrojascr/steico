@@ -1,5 +1,6 @@
+# encoding: UTF-8
 ActiveAdmin.register Store do
-  menu :parent => I18n.t('active_admin.menu.catalogs')
+  menu :parent => "Catálogos"
   index do
     column :id
     column :code

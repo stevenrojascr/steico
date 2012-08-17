@@ -277,9 +277,6 @@ es:
       links:
         sign_in: "registrarse"
         forgot_your_password: "¿Olvidaste tu contraseña?"
-    menu:
-      catalogs: "Catálogos"
-          
   views:
       pagination:
           truncate: "..."
@@ -296,15 +293,25 @@ es:
     cancel: "Cancelar"
     reset: "Resetear %{model}"
     required: "requerido"
+
     
   activerecord:
     models:
+      admin_user: 
+        one: "Usuario"
+        other: "Usuarios"
       store:
         one: "Tienda"
         other: "Tiendas"
       product:
         one: "Producto"
         other: "Productos"
+      project:
+        one: "Proyecto"
+        other: "Proyectos"
+      task:
+        one: "Tarea"
+        other: "Tareas"
     attributes:
       store:
         code: "Código"
@@ -321,5 +328,11 @@ es:
         id_for_us: "Id OfficeHelp"
         order_in_list: "Orden en lista"
         active: "Activo"
+      project:
+        title: "Nombre"
+      task:
+        title: "Nombre"
+        due_date: "Fecha límite"
+        is_done: "Competada"
 
 
