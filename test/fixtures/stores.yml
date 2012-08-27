@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  id_for_customer: 1
+  id_for_us: 1
+  active: false
+
+two:
+  name: MyString
+  id_for_customer: 1
+  id_for_us: 1
+  active: false

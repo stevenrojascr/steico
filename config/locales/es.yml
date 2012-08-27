@@ -294,4 +294,45 @@ es:
     reset: "Resetear %{model}"
     required: "requerido"
 
+    
+  activerecord:
+    models:
+      admin_user: 
+        one: "Usuario"
+        other: "Usuarios"
+      store:
+        one: "Tienda"
+        other: "Tiendas"
+      product:
+        one: "Producto"
+        other: "Productos"
+      project:
+        one: "Proyecto"
+        other: "Proyectos"
+      task:
+        one: "Tarea"
+        other: "Tareas"
+    attributes:
+      store:
+        code: "Código"
+        name: "Nombre"
+        id_for_customer: "Id Walmart"
+        id_for_us: "Id OfficeHelp"
+        order_in_list: "Orden en lista"
+        active: "Activo"
+      product:
+        code: "Código"
+        name: "Nombre"
+        category: "Categoría"
+        id_for_customer: "Id Walmart"
+        id_for_us: "Id OfficeHelp"
+        order_in_list: "Orden en lista"
+        active: "Activo"
+      project:
+        title: "Nombre"
+      task:
+        title: "Nombre"
+        due_date: "Fecha límite"
+        is_done: "Competada"
+
 
